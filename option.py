@@ -153,3 +153,63 @@ class OrderProduct():
                 print(" ------------------------------------")
                 customer_list = " ".join(["Customer Name:", customer_name, "Item:",item, "Amount:", str(amount), "Total Price:", str(total)])
                 self.data.append(customer_list)
+        
+        elif product == "0605" or product == "RGB FAN":
+            item = "RGB FAN"
+            print("         ".join(self.dp5))
+            print("\n")
+        
+            customer_name = str(input("Enter Customer Name: "))
+            amount = int(input("Order Amount: "))
+            total = amount * 120
+            
+            print("\n")
+            confirmation = input("Confirm Order [y] | [n]: ")
+            if confirmation == "y" or confirmation == "Y":
+                print("\n")
+                print(" ------------------------------------")
+                print(" |  Computer Parts Ordering System  |")
+                print(" |       Rizal Ave. Bats City       |")
+                print(" |      www.computerpartsos.com     |")
+                print(" |     Welcome to Computer Parts    |")
+                print(" |          Ordering System         |")
+                print(" ------------------------------------")
+                print("     Customer Name: ", customer_name)
+                print(" ------------------------------------")
+                print("     Item: RGB FAN")
+                print("     Amount: ", amount)
+                print(" ------------------------------------")
+                print("     Total Price: ", total)
+                print(" ------------------------------------")
+                customer_list = " ".join(["Customer Name:", customer_name, "Item:",item, "Amount:", str(amount), "Total Price:", str(total)])
+                self.data.append(customer_list)
+                    
+        elif product == "0606" or product == "SSD":
+            item = "SSD"
+            print("         ".join(self.dp6))
+            print("\n")
+    
+            customer_name = str(input("Enter Customer Name: "))
+            amount = int(input("Order Amount: "))
+            total = amount * 950
+            
+            print("\n")
+            confirmation = input("Confirm Order [y] | [n]: ")
+            if confirmation == "y" or confirmation == "Y":
+                print("\n")
+                print(" ------------------------------------")
+                print(" |  Computer Parts Ordering System  |")
+                print(" |       Rizal Ave. Bats City       |")
+                print(" |      www.computerpartsos.com     |")
+                print(" |     Welcome to Computer Parts    |")
+                print(" |          Ordering System         |")
+                print(" ------------------------------------")
+                print("     Customer Name: ", customer_name)
+                print(" ------------------------------------")
+                print("     Item: SOLID STATE DRIVE (SSD)")
+                print("     Amount: ", amount)
+                print(" ------------------------------------")
+                print("     Total Price: ", total)
+                print(" ------------------------------------")
+                customer_list = " ".join(["Customer Name:", customer_name, "Item:",item, "Amount:", str(amount), "Total Price:", str(total)])
+                self.data.append(customer_list)
