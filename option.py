@@ -393,3 +393,52 @@ class OrderProduct():
                 print(" ------------------------------------")
                 customer_list = " ".join(["Customer Name:", customer_name, "Item:",item, "Amount:", str(amount), "Total Price:", str(total)])
                 self.data.append(customer_list)          
+
+        elif product == "0613" or product == "GPU":
+            item = "GPU"
+            print("         ".join(self.dp13))
+            print("\n")
+        
+            customer_name = str(input("Enter Customer Name: "))
+            amount = int(input("Order Amount: "))
+            total = amount * 19200
+            
+            print("\n")
+            confirmation = input("Confirm Order [y] | [n]: ")
+            if confirmation == "y" or confirmation == "Y":
+                print("\n")
+                print(" ------------------------------------")
+                print(" |  Computer Parts Ordering System  |")
+                print(" |       Rizal Ave. Bats City       |")
+                print(" |      www.computerpartsos.com     |")
+                print(" |     Welcome to Computer Parts    |")
+                print(" |          Ordering System         |")
+                print(" ------------------------------------")
+                print("     Customer Name: ", customer_name)
+                print(" ------------------------------------")
+                print("     Item: GPU")
+                print("     Amount: ", amount)
+                print(" ------------------------------------")
+                print("     Total Price: ", total)
+                print(" ------------------------------------")
+                customer_list = " ".join(["Customer Name:", customer_name, "Item:",item, "Amount:", str(amount), "Total Price:", str(total)])
+                self.data.append(customer_list)
+                      
+        elif product == "0614" or product == "":
+            item = ""
+            print("         ".join(self.dp14))
+            print("\n")
+        else:
+            print("\n+-------------------------------------+")
+            print("|    Invalid Product Name or ID       |")
+            print("+-------------------------------------+")
+
+    def viewOrder(self):
+        if self.data != []:
+            print("---------------------------------------------------------------------\n")
+            print("\n\n".join(self.data))
+            print("\n---------------------------------------------------------------------\n\n")
+        if self.data == []: 
+            print("+-----------------------------------------+")
+            print("|         There's no order here!          |")
+            print("+-----------------------------------------+\n\n")                
