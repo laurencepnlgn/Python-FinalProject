@@ -37,3 +37,7 @@
       1. Panaligan, John Laurence 
       2. Besa, Ella Mae
       3. Serrano, Laica 
+
+## Subject and Section
+      CS 121 - Advanced Computer Programming
+      IT - 2101
