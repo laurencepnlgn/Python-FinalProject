@@ -333,3 +333,33 @@ class OrderProduct():
                 print(" ------------------------------------")
                 customer_list = " ".join(["Customer Name:", customer_name, "Item:",item, "Amount:", str(amount), "Total Price:", str(total)])
                 self.data.append(customer_list)               
+
+        elif product == "0611" or product == "HEADSET":
+            item = "HEADSET"
+            print("         ".join(self.dp11))
+            print("\n")
+        
+            customer_name = str(input("Enter Customer Name: "))
+            amount = int(input("Order Amount: "))
+            total = amount * 899
+            
+            print("\n")
+            confirmation = input("Confirm Order [y] | [n]: ")
+            if confirmation == "y" or confirmation == "Y":
+                print("\n")
+                print(" ------------------------------------")
+                print(" |  Computer Parts Ordering System  |")
+                print(" |       Rizal Ave. Bats City       |")
+                print(" |      www.computerpartsos.com     |")
+                print(" |     Welcome to Computer Parts    |")
+                print(" |          Ordering System         |")
+                print(" ------------------------------------")
+                print("     Customer Name: ", customer_name)
+                print(" ------------------------------------")
+                print("     Item: HEADSET")
+                print("     Amount: ", amount)  
+                print(" ------------------------------------")
+                print("     Total Price: ", total)
+                print(" ------------------------------------")
+                customer_list = " ".join(["Customer Name:", customer_name, "Item:",item, "Amount:", str(amount), "Total Price:", str(total)])
+                self.data.append(customer_list)               
