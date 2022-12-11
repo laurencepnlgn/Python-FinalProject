@@ -1,39 +1,20 @@
-# Python-FinalProject - COMPUTER PARTS ORDERING SYSTEM
+# Python-Final-Project
 
-## Login
-      1. Create a class for login - Login()
-            1. Constructor accept two parameters
-             username and password
-            2. Inside the constructor, create an attribute and set a default value for each instance
-             Example: self.user = "admin or ADMIN"
-             Example: self.passw = "admin123 or ADMIN123"
-      2. Create a method for login - we use if else statement
+## Computer Parts Ordering System 
+      This is a system written in Python Programming Language that allows an administrator to manage the ordering process from the user. It is also available to users, allowing them to order computer parts managed by the administrator.
 
-## Order Product
-      1. Create a class for order product - OrderProduct()
-            1. Inside the constructor, we create an attribute for each PC Part
-                  Example: self.dp1 = ["0601", "RAM", "2000"] 
-      2. Create a method for ordering system - def order_product()
-            1. Method should accept one parameter - def order_product(self, product)
-            2. Create a user input - Order Product: 
-                  1. Print the ordered product
-            3. Create a user input - Order Amount: 
-            4. Create a user input for order confirmation - Confirm Order [y] | [n]: 
-                  1. If "y", print the receipt
-                  2. Elif "n", go back to the main screen
 
-## Main Screen
-      1. Create welcome screen
-      2. Display option and ask the user
-         Example: Select an option
-            [1] Order Product
-            [2] View Order
-            [3] Exit 
-          1. If == 1 display Order Product
-          2. Elif == 2 display View Order
-          3. EIif == 3 then Exit else print Invalid Input!
+## Console Application 
+      • This console application includes three functions: order, login, and sign up.
+      • This console application is coded in Python Programming Language and is an essential resource for users to have access to ordering computer parts.
 
-## Developer
+## Features 
+      • ORDER: This feature allows users to order computer parts. By entering the order name and quantity.
+      • LOGIN: This feature allows administrators to access the system.
+      • SIGN UP: This feature is intended for administrators to create a new account in order to access the system.
+
+
+## Developed by:
       1. Panaligan, John Laurence 
       2. Besa, Ella Mae
       3. Serrano, Laica 
