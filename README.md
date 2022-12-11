@@ -38,7 +38,7 @@
 
 ## Self-Assessment
 |Metric| Score| Description|
-|:-----:|------:|----------:
+|:-----:|:------:|:----------:
 |Code Reusablity|4|wawawawawawawawaw|
 |Maintainablity|4|wawawawawawawawaw|
 |Scalability|4|wawawawawawawawaw|
