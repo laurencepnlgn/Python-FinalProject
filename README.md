@@ -10,7 +10,9 @@
 
 ## Features 
       • ORDER: This feature allows users to order computer parts. By entering the order name and quantity.
+
       • LOGIN: This feature allows administrators to access the system.
+
       • SIGN UP: This feature is intended for administrators to create a new account in order to access the system.
 
 
