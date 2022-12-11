@@ -15,6 +15,11 @@
 
       • SIGN UP: This feature is intended for administrators to create a new account in order to access the system.
 
+## To use the Console Application:
+
+## UML
+
+## Video Presentation
 
 ## Developed by:
       1. Panaligan, John Laurence 
@@ -25,4 +30,3 @@
       CS 121 - Advanced Computer Programming
       IT - 2101
 
-## Video Presentation
