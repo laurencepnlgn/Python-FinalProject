@@ -16,6 +16,19 @@
       • SIGN UP: This feature is intended for administrators to create a new account in order to access the system.
 
 ## To run and use the Console Application:
+      • Open the file named main.py to start the runtime of the system by basically running this file.
+
+      • The console application will then appear, along with a screen asking which commands will be used by the administrator, which are Login, Sign up, and Exit.
+
+      • After accessing the login screen, the console application will proceed and display the screen for users while the runtime is True.
+
+      • The screen will show the choices for users which are the Order Product, View Order, and Exit.
+
+      • The console application will ask users whether they want to proceed with the order by simply answering Y or N.
+        • Y for a successful order.
+        • N for order cancellation.
+
+      • If either the administrator or the user enters an invalid value, the console will detect the error and prompt the administrator or user to try again.
 
 ## UML
 
