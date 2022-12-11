@@ -93,7 +93,7 @@ class OrderProduct:
             print("\n---------------------------------------------------------------------\n\n")
         if self.data == []: 
             print("+-----------------------------------------+")
-            print("|         There's no order here!          |")
+            print("|         There's no record here!         |")
             print("+-----------------------------------------+\n\n")                
     def display_order(self):
         print(" ")
