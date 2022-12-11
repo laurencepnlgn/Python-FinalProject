@@ -24,3 +24,5 @@
 ## Subject and Section
       CS 121 - Advanced Computer Programming
       IT - 2101
+
+## Video Presentation
