@@ -36,7 +36,7 @@
 ![uml](https://user-images.githubusercontent.com/113991600/206926110-74f482f9-b3c0-410e-8cfb-ef960a2f609f.png)
 
 ## Video Presentation
-[![Python-FinalProject](https://youtube.com/R1FY_0o1eH8)](https://www.youtube.com/watch?v=R1FY_0o1eH8)
+[![Python-FinalProject](https://youtube.com/R1FY_0o1eH8)]
 ## Self-Assessment
 |Metric| Score| Description|
 |:--------:|:----:|:----------------------:|
