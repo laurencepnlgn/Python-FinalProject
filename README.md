@@ -27,8 +27,8 @@
 * The screen will show the choices for users which are the Order Product, View Order, and Exit.
 
 * The console application will ask users whether they want to proceed with the order by simply answering Y or N.
-* Y for a successful order.
-* N for order cancellation.
+  * Y for a successful order.
+  * N for order cancellation.
 
 * If either the administrator or the user enters an invalid value, the console will detect the error and prompt the administrator or user to try again.
 
