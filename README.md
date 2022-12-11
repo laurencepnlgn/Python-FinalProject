@@ -15,7 +15,7 @@
 
       • SIGN UP: This feature is intended for administrators to create a new account in order to access the system.
 
-## To use the Console Application:
+## To run and use the Console Application:
 
 ## UML
 
