@@ -39,8 +39,8 @@
 
 ## Self-Assessment
 |Metric| Score| Description|
-|:--------:|:----:|:----------------------:
-|Code Reusablity|4|Practices DRY (Do no Repeat Yourself) method excellently, leading to a shorter and cleaner program structure.|
+|:--------:|:----:|:----------------------:|
+|Code Reusablity|4|Practices DRY (Do not Repeat Yourself) method excellently, leading to a shorter and cleaner program structure.|
 |Maintainablity|3|The program's structure is based on OOP principles, Codes are readable, understandable, aiding to its maintainability.|
 |Scalability|3|The program can be easily updated in case of feature add-ons and immediate tweaks.|
 |Execution|4|The program is fully functional as declared and intended with additional features that exceeds the requirements of the course. Handling of errors are remarkably done. Some operations even use appropriate algorithms to improve cost-efficiency and overall performance.|
