@@ -39,6 +39,12 @@
 ## Self-Assessment
 |Metric| Score| Description|
 |:-----:|------:|----------:
+|:Code Reusablity|4|
+|:Maintainablity|4|
+|:Scalability|4|
+|:Execution|4|
+|:Originality|4|
+|:Overall Impression|4|
 ## Contributors
       1. Panaligan, John Laurence 
       2. Besa, Ella Mae
