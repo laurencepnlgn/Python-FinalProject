@@ -13,7 +13,7 @@
 ## Features 
 * Feature 1: Allows users to order computer parts. By entering the order name and quantity.
 
-* Feature 2: Allows administrators to access the system.
+* Feature 2: Allows users to access the system.
 
 * Feature 3: Intended for administrators to create a new account in order to access the system.
 
