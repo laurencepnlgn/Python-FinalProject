@@ -43,7 +43,7 @@
 |Maintainablity|4|wait po di pa tapos|
 |Scalability|4|wait po di pa tapos|
 |Execution|4|wait po di pa tapos|
-|Originality|4|wawawawawawawawaw|wait po di pa tapos|
+|Originality|4|wait po di pa tapos|
 |Overall Impression|4|wait po di pa tapos|
 ## Contributors
       1. Panaligan, John Laurence 
