@@ -36,9 +36,7 @@
 ![uml](https://user-images.githubusercontent.com/113991600/206926110-74f482f9-b3c0-410e-8cfb-ef960a2f609f.png)
 
 ## Video Presentation
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1FY_0o1eH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- </p>
+[![Python-FinalProject](https://img.youtube.com/vi/R1FY_0o1eH8)](https://www.youtube.com/watch?v=R1FY_0o1eH8)
 ## Self-Assessment
 |Metric| Score| Description|
 |:--------:|:----:|:----------------------:|
