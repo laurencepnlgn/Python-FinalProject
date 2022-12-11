@@ -43,42 +43,42 @@ class OrderProduct:
                 print("         ".join(self.dplay[i]))
                 print("\n")
                 
-            customer_name = str(input("Enter Customer Name: "))
-            while True:
-                try:
-                    amount = int(input("Order Amount: "))
-                except ValueError:
-                    print("Please Input Numbers Only")
+                customer_name = str(input("Enter Customer Name: "))
+                while True:
+                    try:
+                        amount = int(input("Order Amount: "))
+                    except ValueError:
+                        print("\nPlease Input Numbers Only")
+                    else:
+                        total = amount * self.list_price[i]
+                        break
+                    
+                print("\n")
+                confirmation = input("Confirm Order [y] | [n]: ")
+                if confirmation == "y" or confirmation == "Y":
+                        print("\n")
+                        print(" ------------------------------------")
+                        print(" |  Computer Parts Ordering System  |")
+                        print(" |       Rizal Ave. Bats City       |")
+                        print(" |      www.computerpartsos.com     |")
+                        print(" |     Welcome to Computer Parts    |")
+                        print(" |          Ordering System         |")
+                        print(" ------------------------------------")
+                        print("     Customer Name: ", customer_name)
+                        print(" ------------------------------------")
+                        print("     Item: ", self.list_item[i])
+                        print("     Amount: ", amount)
+                        print(" ------------------------------------")
+                        print("     Total Price: ", total)
+                        print(" ------------------------------------")
+                        customer_list = " ".join(["Customer Name:", customer_name, "Item:", self.list_item[i], "Amount:", str(amount), "Total Price:", str(total)])
+                        self.data.append(customer_list) 
+                        break
                 else:
-                    total = amount * self.list_price[i]
-                    break
-                
-            print("\n")
-            confirmation = input("Confirm Order [y] | [n]: ")
-            if confirmation == "y" or confirmation == "Y":
-                    print("\n")
-                    print(" ------------------------------------")
-                    print(" |  Computer Parts Ordering System  |")
-                    print(" |       Rizal Ave. Bats City       |")
-                    print(" |      www.computerpartsos.com     |")
-                    print(" |     Welcome to Computer Parts    |")
-                    print(" |          Ordering System         |")
-                    print(" ------------------------------------")
-                    print("     Customer Name: ", customer_name)
-                    print(" ------------------------------------")
-                    print("     Item: ", self.list_item[i])
-                    print("     Amount: ", amount)
-                    print(" ------------------------------------")
-                    print("     Total Price: ", total)
-                    print(" ------------------------------------")
-                    customer_list = " ".join(["Customer Name:", customer_name, "Item:", self.list_item[i], "Amount:", str(amount), "Total Price:", str(total)])
-                    self.data.append(customer_list) 
-                    break
-            else:
-                    print("\n+-------------------------------------+")
-                    print("|      You cancelled your order       |")
-                    print("+-------------------------------------+")
-                    break
+                        print("\n+-------------------------------------+")
+                        print("|      You cancelled your order       |")
+                        print("+-------------------------------------+")
+                        break
         else:
             print("\n+-------------------------------------+")
             print("|    Invalid Product Name or ID       |")
