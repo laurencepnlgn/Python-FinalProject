@@ -37,7 +37,8 @@
 ## Video Presentation
 
 ## Self-Assessment
-
+|Metric| Score| Description|
+|:-----:|------:|----------:
 ## Contributors
       1. Panaligan, John Laurence 
       2. Besa, Ella Mae
