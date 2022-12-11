@@ -30,11 +30,11 @@
 
       • If either the administrator or the user enters an invalid value, the console will detect the error and prompt the administrator or user to try again.
 
-## UML
+## Unified Modeling Language (UML)
 
 ## Video Presentation
 
-## Developed by:
+## Contributors
       1. Panaligan, John Laurence 
       2. Besa, Ella Mae
       3. Serrano, Laica 
