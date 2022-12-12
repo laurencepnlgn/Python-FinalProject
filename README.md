@@ -33,7 +33,7 @@
 * If either the administrator or the user enters an invalid value, the console will detect the error and prompt the administrator or user to try again.
 
 ## Unified Modeling Language (UML)
-![uml](https://user-images.githubusercontent.com/113991600/206926110-74f482f9-b3c0-410e-8cfb-ef960a2f609f.png)
+![uml](https://github.com/Lrencepnlgn/Python-FinalProject/blob/main/img/ComputerPartsOrderingSystem.png?raw=true)
 
 ## Video Presentation
 [![Python-FinalProject](https://img.youtube.com/vi/mIDvXJVknbo/0.jpg)](https://www.youtube.com/watch?v=mIDvXJVknbo)
