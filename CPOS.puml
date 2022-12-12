@@ -1,0 +1,24 @@
+@startuml
+package utils {
+Login : +__init__
+Login : +check(self)
+Login : +order_class = OrderProduct()
+Login : +order_class.display_column()
+Login : +order_class.display_order()
+Login : +order_class.viewOrder()
+OrderProduct : +__init__(self, data = [])
+OrderProduct : +display_column(self)
+OrderProduct : +order_product(self, product)
+OrderProduct : +viewOrder(self)
+OrderProduct : +display_order(self)
+OrderProduct : __name__ == "__main__"
+Signup : +sign_up_acct()
+Signup : +filename = "username"
+}
+Login --> OrderProduct
+User --> Login
+User --> Signup
+User : +user
+User : +pass
+User : +__init__
+@enduml
